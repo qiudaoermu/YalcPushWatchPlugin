@@ -4,7 +4,7 @@ colors.setTheme({
   custom: ["black", "bgYellow"],
   error: ["red", "bgWhite"],
 });
-class YalcPushWatchPlugin {
+class YalcWatchWebpackPlugin {
   constructor(options) {
     this.options = options || {};
   }
@@ -47,4 +47,4 @@ class YalcPushWatchPlugin {
     );
   }
 }
-module.exports = YalcPushWatchPlugin;
+module.exports = YalcWatchWebpackPlugin;

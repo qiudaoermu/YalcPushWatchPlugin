@@ -5,7 +5,7 @@ Automatic execute `yalc push` if you are use yalc when your package is changed.
 ### install
 
 ```
-npm i yalcPushWatchPlugin -save-dev
+npm i yalcwatch-webpack-plugin -save-dev
 ```
 
 ### usage
@@ -26,8 +26,8 @@ yalc publish
 
 
 ```
-const YalcPushWatchPlugin = require('YalcPushWatchPlugin');
-new YalcPushWatchPlugin({
+const YalcWatchPlugin = require('yalcwatch-webpack-plugin');
+new YalcWatchPlugin({
   watchPushAction: true, // open watching Model
   linkName: "projectA", // your main package name
 })
@@ -35,4 +35,4 @@ new YalcPushWatchPlugin({
 
 4.start your project
 
-enjoy yourslef~~~
+Enjoy yourslef~~~
